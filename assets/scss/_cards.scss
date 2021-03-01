@@ -1,0 +1,54 @@
+/*start card*/
+
+.card-container{
+    width: 30rem;
+    height: 40rem;
+    margin: 2rem;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 1rem auto;
+}
+
+
+.card{
+    background-color: $white;
+    box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+    padding-bottom: 1rem;
+    img{
+        border-radius: 0.5rem 0.5rem 0 0;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        aspect-ratio: 4/3;
+    }
+    .content{
+        text-align: center;
+        h3{
+            margin-top: 2rem;
+            font-size: 1.3rem;
+        }
+        p{
+              margin-left: 3rem;
+              text-align: left;
+        }
+        button{
+            background-color: #3b7bbf;
+            font-size: 2rem;
+            color: $white;
+            font-weight: 600;
+            border: none;
+            .button--paypal{
+                padding: 2rem;
+                margin: 2rem;
+                border-radius: 20%;
+            }
+        }
+    }
+    
+}
+
+
+
+/*end card*/

@@ -1,0 +1,32 @@
+/* vars */
+
+$black: #000000;
+$lightGrey: #CFD2D4;
+$grey: #7D7D7D;
+$white: #F4F4F6;
+$blue: #4754E7;
+$red: #AB1316;
+$violet: #221E61;
+$gold: #AD7600;
+$fuxia: #E446F1;
+
+/* end vars */
+
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+/* end fonts */
+
+/* background colors */
+
+.grey{
+    background-color: $grey;
+}
+
+.light-grey{
+    background-color: $lightGrey !important;
+}
+
+/* end background colors */

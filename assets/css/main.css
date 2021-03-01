@@ -1,0 +1,130 @@
+/* reset */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+/* end reset */
+/* vars */
+/* end vars */
+/* fonts */
+/* end fonts */
+/* background colors */
+.grey {
+  background-color: #7D7D7D; }
+
+.light-grey {
+  background-color: #CFD2D4 !important; }
+
+/* end background colors */
+/*nav bar*/
+.nav-item a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #F4F4F6 !important;
+  font-weight: 600 !important;
+  margin-left: 2rem;
+  text-decoration: none; }
+
+.nav-item a:hover {
+  color: #E446F1 !important;
+  background-color: transparent !important;
+  transition: all 0.5s; }
+
+.nav-item i {
+  margin-top: 0.8rem;
+  margin-right: 2rem;
+  font-size: 2rem; }
+
+.facebook:hover {
+  color: #3b5998 !important;
+  transform: scale(1.5, 1.5);
+  transition: all 0.5s; }
+
+.instagram:hover {
+  color: #C13584 !important;
+  transform: scale(1.5, 1.5);
+  transition: all 0.5s; }
+
+.active {
+  color: #E446F1 !important; }
+
+/*end nav bar*/
+/*footer*/
+footer p {
+  font-size: 1.5rem;
+  font-weight: 500; }
+
+.dev {
+  font-size: 4rem;
+  text-align: right; }
+
+.am {
+  animation: color-change 3s infinite;
+  font-size: 1rem;
+  font-family: 'Press Start 2P', cursive;
+  text-decoration: none; }
+
+@keyframes color-change {
+  0% {
+    color: #2825D7; }
+  25% {
+    color: #260F76; }
+  50% {
+    color: #3B1D2A; }
+  75% {
+    color: #712130; }
+  100% {
+    color: #BE1525; } }
+
+/*end footer*/
+/*start card*/
+.card-container {
+  width: 30rem;
+  height: 40rem;
+  margin: 2rem;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 1rem auto; }
+
+.card {
+  background-color: #F4F4F6;
+  box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+  padding-bottom: 1rem; }
+  .card img {
+    border-radius: 0.5rem 0.5rem 0 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 4/3; }
+  .card .content {
+    text-align: center; }
+    .card .content h3 {
+      margin-top: 2rem;
+      font-size: 1.3rem; }
+    .card .content p {
+      margin-left: 3rem;
+      text-align: left; }
+    .card .content button {
+      background-color: #3b7bbf;
+      font-size: 2rem;
+      color: #F4F4F6;
+      font-weight: 600;
+      border: none; }
+      .card .content button .button--paypal {
+        padding: 2rem;
+        margin: 2rem;
+        border-radius: 20%; }
+
+/*end card*/

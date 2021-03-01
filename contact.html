@@ -41,9 +41,24 @@
         </navbar>
         </header>
    
-    <main>
+    <main class="grey">
         <section>
-            En construccion
+            <section class="container-fluid padding-5 white">
+                <div>
+                  <P class="contact"><b>Aqui podes consultar sobre donaciones, realizar pedidos especiales.</P>
+                </div>
+                <div class="container-fluid section__form-group">
+                    <form  method="POST" id="contacto" name="contacto">
+                        <label for="nombre"></label>
+                        <input type="text" name="nombre" id="nombre" placeholder="NOMBRE"><br><br>
+                        <label for="email"></label>
+                        <input type="email" name="email" id="email" placeholder="CORREO"><br><br>
+                        <label for="consulta"></label><br>
+                        <textarea name="consulta" id="consulta" placeholder="CONSULTA"></textarea><br><br>
+                        <input type="submit" name="enviar" value="ENVIAR"><br><br><br><br>
+                    </form>
+                </div>
+            </section>
         </section>
     </main>
 

@@ -1,0 +1,42 @@
+/*nav bar*/
+.nav-item {
+    a{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2.5rem;
+        color: $white !important;
+        font-weight: 600 !important;
+        margin-left: 2rem;
+        text-decoration: none;
+    }
+    a:hover{
+        color: $fuxia !important;
+        background-color: transparent !important;
+        transition: all 0.5s;
+    }
+}
+
+.nav-item {
+    i{
+        margin-top: 0.8rem;
+        margin-right: 2rem;
+        font-size: 2rem;
+    
+    }
+}
+
+.facebook:hover{
+    color: #3b5998 !important;
+    transform: scale(1.5, 1.5);
+    transition: all 0.5s;
+}
+
+.instagram:hover{
+    color: #C13584 !important;
+    transform: scale(1.5, 1.5);
+    transition: all 0.5s;
+}
+
+.active{
+    color: $fuxia !important;
+}
+/*end nav bar*/
